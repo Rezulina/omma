@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body { font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #FFC107;
+    height: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav { 
+    height: 48px;
+    background-color: #FFA000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+} 
+
+nav > a {
+    color: #fdfdfd;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    margin: 0px 28px;
+}
+#primeiro {
+    background-image: url(/assets/image/primeiraimg.png );
+    padding: 49px 122px 186px;
+    
+}
+#primeiro h1 {
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 85px;
+    text-transform: lowercase;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    max-width: 419px;
+}
+#contato {
+    margin: 97px 127px 133px;
+    display: flex;
+    justify-content: space-between;
+}
+#contato form {
+    flex-grow: 2;
+    margin-left: 15px;
+    border: 1px solid #FFA000;
+    border-radius: 20px;
+    padding: 66px 33px;
+    display: flex;
+    flex-direction: column;
+}
+#contato h2 {
+    color: #FFC107;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 67px;
+}
+
+#contato form input,
+#contato form textarea {
+    border: 1px solid #FFA000;
+    color: #58555d;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 7px 34px;
+    margin-bottom: 23px;
+}
+#contato form textarea {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    margin-bottom: 16px;
+}
+#contato form input::placeholder,
+#contato form textarea {
+    color: #58555d;
+}
+#contato form input:focus,
+#contato form textarea {
+    outline: none;
+}
+#contato form button {
+    width: 165px;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    background: #FFC107;
+    border-radius: 50px;
+    border: none;
+    padding: 12px;
+}
+
+footer {
+    background-color: #FFC107;
+    color: #fff;
+    padding: 30px;
+}
+footer img {
+    vertical-align: middle;
+}
